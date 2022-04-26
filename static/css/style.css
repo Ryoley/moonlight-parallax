@@ -16,6 +16,10 @@ body {
 
 /*====== Custom scrollbar ======*/
 
+* {
+  scrollbar-color: #fff #1c0522;
+}
+
 ::-webkit-scrollbar {
     width: 10px;
   }
