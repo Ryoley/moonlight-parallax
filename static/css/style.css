@@ -120,10 +120,6 @@ header ul li a:hover {
     transition: 1s;
 }
 
-#btn-letsgo:hover {
-    transform: scale(1.1) translateY(90px);
-}
-
 .about-section {
     position: relative;
     display: block;
