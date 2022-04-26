@@ -117,6 +117,11 @@ header ul li a:hover {
     z-index: 9;
     text-decoration: none;
     transform: translateY(100px);
+    transition: 1s;
+}
+
+#btn-letsgo:hover {
+    transform: scale(1.1) translateY(90px);
 }
 
 .about-section {
