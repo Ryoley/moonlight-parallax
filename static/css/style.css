@@ -108,7 +108,6 @@ header ul li a:hover {
 }
 
 #btn-letsgo {
-    text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
     border-radius: 40px;
@@ -116,6 +115,7 @@ header ul li a:hover {
     color: #2b1055;
     font-size: 1.5em;
     z-index: 9;
+    text-decoration: none;
     transform: translateY(100px);
 }
 
@@ -126,27 +126,23 @@ header ul li a:hover {
     background-color: #1c0522;
 }
 
-.about-section .text-container {
-    /* padding-bottom: 3em; */
-}
-
 .about-section h2 {
     margin: 0.65em 0;
-    font-size: 3.25em;
     color: #fff;
+    font-size: 3.25em;
 }
 
 .about-section h3 {
     margin-top: 1em;
     margin-bottom: 0.5em;
-    font-size: 2em;
     color: #fff;
+    font-size: 2em;
 }
 
 .about-section p {
     margin: 1em 0;
-    font-size: 1em;
     color: #fff;
+    font-size: 1em;
 }
 
 .about-section ul {
@@ -156,8 +152,8 @@ header ul li a:hover {
 
 .about-section ul li {
     margin: 0.5em 0;
-    font-size: 1em;
     color: #fff;
+    font-size: 1em;
 }
 
 footer {
@@ -171,13 +167,13 @@ footer {
 
 footer .logo {
     color: #2b1055;
+    font-size: 2em;
     font-weight: 700;
     text-decoration: none;
-    font-size: 2em;
     text-transform: uppercase;
 }
 
 footer p {
     color: #2b1055;
-    text-align: end;
+    font-size: 1em;
 }
