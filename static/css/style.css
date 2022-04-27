@@ -17,7 +17,7 @@ body {
 /*====== Custom scrollbar ======*/
 
 * {
-  scrollbar-color: #fff #1c0522;
+  scrollbar-color: #fff transparent;
 }
 
 ::-webkit-scrollbar {
