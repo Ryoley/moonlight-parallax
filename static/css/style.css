@@ -80,6 +80,7 @@ header ul li a {
     padding: 6px 15px;
     color: #fff;
     border-radius: 20px;
+    transition: 0.5s;
 }
 
 header ul li a:hover {
@@ -137,7 +138,13 @@ header ul li a:hover {
     z-index: 9;
     text-decoration: none;
     transform: translateY(100px);
-    transition: 1s;
+    transition: 0.5s;
+}
+
+#btn-letsgo:hover {
+    background-color: #2b1055;
+    color: #fff;
+    border: 2px solid #fff;
 }
 
 .about-section {
