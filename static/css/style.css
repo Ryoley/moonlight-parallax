@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
+/*===== General CSS =====*/
+
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -32,7 +34,7 @@ body {
     background: #fff;
   }
   
-/*==============================*/
+/*===== Responsive =====*/
 
 @media screen and (max-width: 650px) {
     .header {
@@ -44,6 +46,9 @@ body {
     }
 }
 
+/*===== CSS =====*/
+
+/* Header & navbar */
 header {
     position: absolute;
     top: 0;
@@ -88,6 +93,7 @@ header ul li a:hover {
     color: #2b1055;
 }
 
+/* Home section*/
 .home-section {
     position: relative;
     height: 100vh;
@@ -128,6 +134,7 @@ header ul li a:hover {
     z-index: 10;
 }
 
+/* Let's go button */
 #btn-letsgo {
     display: inline-block;
     padding: 8px 30px;
@@ -147,6 +154,7 @@ header ul li a:hover {
     border: 2px solid #fff;
 }
 
+/* About section */
 .about-section {
     position: relative;
     display: block;
@@ -184,6 +192,7 @@ header ul li a:hover {
     font-size: 1em;
 }
 
+/* Footer */
 footer {
     width: 100%;
     padding: 10px 20px;
