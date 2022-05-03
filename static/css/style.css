@@ -19,21 +19,21 @@ body {
 /*====== Custom scrollbar ======*/
 
 * {
-  scrollbar-color: #fff transparent;
+    scrollbar-color: #fff transparent;
 }
 
 ::-webkit-scrollbar {
     width: 10px;
-  }
-  
-  ::-webkit-scrollbar-track {
+}
+
+::-webkit-scrollbar-track {
     background: #1c0522;
-  }
-  
-  ::-webkit-scrollbar-thumb {
+}
+
+::-webkit-scrollbar-thumb {
     background: #fff;
-  }
-  
+}
+
 /*===== Responsive =====*/
 
 @media screen and (max-width: 650px) {
@@ -199,18 +199,36 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: #2b1055;
+    color: #fff;
 }
 
 footer .logo {
-    color: #2b1055;
+    height: 80px;
+    width: 80px;
+    color: #fff;
     font-size: 2em;
     font-weight: 700;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-footer p {
-    color: #2b1055;
-    font-size: 1em;
+footer .logo img {
+    height: 100%;
+    width: 100%;
+}
+
+footer .social {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .social a {
+    margin-left: 20px;
+    color: #fff;
+    font-size: 1.5em;
+}
+
+footer .social a:hover {
+    color: #7597de;
 }
